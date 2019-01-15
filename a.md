@@ -44,3 +44,9 @@ _sqlplus username/\"password\"@SID_
 
 _sqlplus user1/\"EX163@333\"@ORCL_
 
+8、重启数据库
+
+shutdown immediate;
+
+startup;
+
