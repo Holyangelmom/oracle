@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [常用sql](chapter1.md)
-* [其他](a.md)
+* [其他命令](a.md)
 
