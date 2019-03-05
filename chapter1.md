@@ -40,3 +40,11 @@ _alter profile default limit  password\_life\_time 360;_
 
 _alter profile default limit  password\_life\_time unlimited;_
 
+### 7、查看当前用户的表
+
+_select tablename from user\_tables;_
+
+_select \* from all\_tables where owner='XXX';_
+
+
+
