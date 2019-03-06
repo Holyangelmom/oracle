@@ -1,18 +1,26 @@
 # 零碎问题
 
-1、使用sqlplus登录SYS、SYSTEM用户
+### 1、SYS、SYSTEM用户登录
 
-（1）首次登录
+默认密码：
 
 SYSTEM默认密码：manager，使用sqlplus登录时需加上 as sysdba，即密码为：manager as sysdba
 
 SYS默认密码：change\_on\_install，使用sqlplus登录时需加上 as sysdba，即密码为：change\_on\_install as sysdba
 
-（2）修改密码
+（1）显式密码登录
 
-alter user SYS identified by "xxx";
+在命令行下登录：sqlplus SYSTEM/manager as sysdba
 
-（3）再次登录
+在命令行下登录（使用tns）：sqlplus SYSTEM/manager@ORCL as sysdba
 
-SYS默认密码：xxx，使用sqlplus登录时**仍需加上 as sysdba**，即密码为：xxx as sysdba
+在命令行下登录：sqlplus SYS/change\_on\_install as sysdba
+
+在命令行下登录（使用tns）：sqlplus SYS/change\_on\_install@ORCL as sysdba
+
+（2）隐式密码登录
+
+先命令行下执行sqlplus或者直接使用sqlplus。在输入用户名后
+
+
 
