@@ -24,7 +24,7 @@ SYS默认密码：change\_on\_install，使用sqlplus登录时需加上 as sysdb
 
 **（3）Navicat登录**
 
-navicat只能登录SYS用户，登录SYSTEM用户会提示权限错误。
+navicat只能登录SYS用户，登录SYSTEM用户会提示权限错误，原因未知。
 
 ![](/assets/navicat登录SYS.png)
 
