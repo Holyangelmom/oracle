@@ -20,7 +20,7 @@ SYS默认密码：change\_on\_install，使用sqlplus登录时需加上 as sysdb
 
 **（2）隐式密码登录**
 
-先命令行下执行sqlplus或者直接使用sqlplus。在输入用户名后输入密码，输入密码时要加上as sysdba，即密码为：xxx as sysdba。
+先命令行下执行sqlplus或者直接使用sqlplus。在输入用户名后输入密码xxx，输入密码时要加上as sysdba，即密码为：xxx as sysdba。
 
 **（3）Navicat登录**
 
