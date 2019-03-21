@@ -4,9 +4,9 @@
 
 默认密码：
 
-SYSTEM默认密码：manager，使用sqlplus登录时需加上 as sysdba，即密码为：manager as sysdba
+SYSTEM默认密码：manager。
 
-SYS默认密码：change\_on\_install，使用sqlplus登录时需加上 as sysdba，即密码为：change\_on\_install as sysdba
+SYS默认密码：change\_on\_install。
 
 **（1）显式密码登录**
 
