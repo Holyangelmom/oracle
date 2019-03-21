@@ -10,13 +10,13 @@ SYS默认密码：change\_on\_install，使用sqlplus登录时需加上 as sysdb
 
 **（1）显式密码登录**
 
-在命令行下登录SYSTEM：sqlplus SYSTEM/密码 as sysdba
+在cmd或终端命令行下登录SYSTEM：sqlplus SYSTEM/密码 as sysdba
 
-在命令行下登录SYSTEM（使用tns）：sqlplus SYSTEM/密码@ORCL as sysdba
+在cmd或终端命令行下登录SYSTEM（使用tns）：sqlplus SYSTEM/密码@ORCL as sysdba
 
-在命令行下登录SYS：sqlplus SYS/密码 as sysdba
+在cmd或终端命令行下登录SYS：sqlplus SYS/密码 as sysdba
 
-在命令行下登录SYS（使用tns）：sqlplus SYS/密码@ORCL as sysdba
+在cmd或终端命令行下登录SYS（使用tns）：sqlplus SYS/密码@ORCL as sysdba
 
 **（2）隐式密码登录**
 
