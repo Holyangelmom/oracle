@@ -31,22 +31,26 @@ from (select row_.*, rownum rn
 where rn >= 10;
 
 
---疑问：可以用两层查询就能完成分页，为何用三层？
+
+--疑问：可以用两层查询就能完成分页，为何网上很多人用三层？
 select row_.*
 from (
-	select test.*, rownum rn
-	from test
-	where rownum <= 10
+    select test.*, rownum rn
+    from test
+    where rownum <= 10
 ) row_
 where row_.rn >=5
 
 
 
-
-
 --第二种方法
-
-
+select *
+from (select row_.*, rownum rownum_
+      from (select *
+            from test
+            ) row_
+      where rownum <= 20)
+where rownum_ >= 10;
 ```
 
 这个Oracle分页查询语句，在大多数情况拥有较高的效率，主要体现在WHERE ROWNUM &lt;= 40这句上。
