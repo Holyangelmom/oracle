@@ -7,4 +7,5 @@
   * [1、SYSTEM/SYS用户登录](ling-sui-wen-ti/1systemsysyong-hu-deng-lu.md)
 * [常用函数](chang-yong-han-shu.md)
   * [1、NVL函数](chang-yong-han-shu/1nvlhan-shu.md)
+  * [2、CASE函数](chang-yong-han-shu/2casehan-shu.md)
 
