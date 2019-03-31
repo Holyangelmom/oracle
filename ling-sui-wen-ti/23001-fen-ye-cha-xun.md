@@ -25,7 +25,6 @@ select *
 from (select row_.*, rownum rn
       from (select *
             from test
-            order by id asc
             ) row_
       where rownum <= 40)
 where rn >= 20;
