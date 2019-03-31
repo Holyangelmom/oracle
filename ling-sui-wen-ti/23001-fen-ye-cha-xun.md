@@ -27,8 +27,8 @@ from (select row_.*, rownum rn
             from test
             order by id asc
             ) row_
-      where rownum <= 20)
-where rn >= 10;
+      where rownum <= 40)
+where rn >= 20;
 
 
 
@@ -37,21 +37,25 @@ select row_.*
 from (
     select test.*, rownum rn
     from test
-    where rownum <= 10
+    where rownum <= 40
 ) row_
-where row_.rn >=5
+where row_.rn >=20
 
 
 
 --第二种方法
-select *
-from (select row_.*, rownum rownum_
-      from (select *
+select * 
+from (select a.*, rownum rn  
+      from (select * 
             from test
-            ) row_
-      where rownum <= 20)
-where rownum_ >= 10;
+            ) a
+)
+where rn between 20 and 40  
 ```
 
-这个Oracle分页查询语句，在大多数情况拥有较高的效率，主要体现在WHERE ROWNUM &lt;= 40这句上。
+对比这两种写法，绝大多数的情况下，第一个查询的效率比第二个高得多。
+
+第一种写法：在大多数情况拥有较高的效率，主要体现在第二层通过rownum&lt;= 40来控制最大值，在查询的最外层控制最小值。
+
+第二种写法：去掉查询第二层的where rownum &lt;= 40语句，在查询的最外层控制分页的最小值和最大值。
 
