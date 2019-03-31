@@ -12,5 +12,5 @@ NVL\(expr1,expr2\)
 
 _select nvl\(null,null\) from dual_
 
-_select nvl\(max\(id\)+1,1\) from oadb.t\_\_query_
+_select nvl\(max\(id\)+1,1\) from oadb.t_\_query
 
