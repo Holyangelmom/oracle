@@ -10,4 +10,5 @@
   * [1、SYSTEM/SYS用户登录](ling-sui-wen-ti/1systemsysyong-hu-deng-lu.md)
   * [2、分页查询](ling-sui-wen-ti/23001-fen-ye-cha-xun.md)
   * [3、使用sqlplus或者cmd进行更新操作时数据未更新的问题](ling-sui-wen-ti/33001-shi-yong-sqlplus-huo-zhe-cmd-jin-xing-geng-xin-cao-zuo-shi-shu-ju-wei-geng-xin-de-wen-ti.md)
+  * [4、ORA-02290: 违反检查约束条件](ling-sui-wen-ti/4ora-02290-wei-fan-jian-cha-yue-shu-tiao-jian.md)
 
