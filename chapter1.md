@@ -46,5 +46,7 @@ _select tablename from user\_tables;_
 
 _select \* from all\_tables where owner='XXX';_
 
+### 8、修改列名
 
+_alter table tableName rename column oldColumn to newColumn;_
 
