@@ -54,5 +54,7 @@ _alter table tableName rename column oldColumn to newColumn;_
 
 _alter table tableName modify \(cloumnName 数据类型\);_
 
+### 10、增加字段
 
+alter table _tableName add b_ank\_name   char\(200\) ;
 
