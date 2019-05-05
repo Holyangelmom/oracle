@@ -8,4 +8,5 @@
   * [2、CASE函数](chang-yong-han-shu/2casehan-shu.md)
 * [零碎问题](ling-sui-wen-ti.md)
   * [1、SYSTEM/SYS用户登录](ling-sui-wen-ti/1systemsysyong-hu-deng-lu.md)
+  * [2、分页查询](ling-sui-wen-ti/23001-fen-ye-cha-xun.md)
 
