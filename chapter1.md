@@ -56,5 +56,11 @@ _alter table tableName modify \(cloumnName 数据类型\);_
 
 ### 10、增加字段
 
-alter table tableName add b\_ank\_name   char\(200\) ;
+_alter table tableName add bank\_name   char\(200\);_
+
+### 11、设置主键
+
+_alter table tableName add constraint PK\_BANK\_ID primary key\(BANK\_ID\);_
+
+
 
