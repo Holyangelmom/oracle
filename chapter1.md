@@ -50,3 +50,9 @@ _select \* from all\_tables where owner='XXX';_
 
 _alter table tableName rename column oldColumn to newColumn;_
 
+### 9、修改列数据类型
+
+_alter table tableName modify \(cloumnName 数据类型\);_
+
+
+
