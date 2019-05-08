@@ -62,5 +62,7 @@ _alter table tableName add bank\_name   char\(200\);_
 
 _alter table tableName add constraint PK\_BANK\_ID primary key\(BANK\_ID\);_
 
+### 12、查看表字段信息
 
+_select \* from user\_tab\_columns where Table\_Name='T\_QUERY\_CONFIG'; _
 
