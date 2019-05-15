@@ -66,7 +66,7 @@ _alter table tableName add constraint PK\_BANK\_ID primary key\(BANK\_ID\);_
 
 _select \* from user\_tab\_columns where Table\_Name='T\_QUERY\_CONFIG'; _
 
-13、查看函数信息
+### 13、查看函数信息
 
 查看函数名字
 
