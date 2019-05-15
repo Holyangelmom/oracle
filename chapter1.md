@@ -30,7 +30,7 @@ _select username, account\_status from dba\_users where username='user1';_
 
 _alter user user1 account unlock;_
 
-修改密码（特殊密码需使用双引号括起来）
+### 修改密码（特殊密码需使用双引号括起来）
 
 _alter user user1 identified by "EX@111";_
 
@@ -65,4 +65,14 @@ _alter table tableName add constraint PK\_BANK\_ID primary key\(BANK\_ID\);_
 ### 12、查看表字段信息
 
 _select \* from user\_tab\_columns where Table\_Name='T\_QUERY\_CONFIG'; _
+
+13、查看函数信息
+
+查看函数名字
+
+_select distinct name from user\_source where type='FUNCTION';_
+
+查看函数内容
+
+_select text from user\_source where type = 'FUNCTION' and name='XXX';_
 
