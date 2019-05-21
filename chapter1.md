@@ -76,3 +76,7 @@ _select distinct name from user\_source where type='FUNCTION';_
 
 _select text from user\_source where type = 'FUNCTION' and name='XXX';_
 
+### 14、删除字段
+
+alter table tableName drop column colName;
+
