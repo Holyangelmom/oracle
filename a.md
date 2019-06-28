@@ -12,3 +12,9 @@ shutdown immediate;
 
 startup;
 
+##### 3、导出导入数据库
+
+exp username/password@ip:port file="本地地址" full=y;
+
+imp username/password@ip:port file="本地地址" full=y;
+
