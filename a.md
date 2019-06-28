@@ -26,3 +26,5 @@ exp username/password@ip:port file="本地地址/文件名.dmp" tables=\(table1,
 
 imp username/password@ip:port file="本地地址/文件名.dmp" tables=\(table1, table2...\);
 
+（3）
+
