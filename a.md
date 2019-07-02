@@ -24,9 +24,9 @@ imp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" full=y;
 
 （2）部分用户表导出导入
 
-exp username/password@ip:port file="本地地址/文件名.dmp" tables=\(table1, table2...\);
+exp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
 
-imp username/password@ip:port file="本地地址/文件名.dmp" tables=\(table1, table2...\);
+imp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
 
 （3）
 
