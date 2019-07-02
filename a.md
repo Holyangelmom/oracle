@@ -14,6 +14,8 @@ startup;
 
 ##### 3、导出导入数据库
 
+默认本地操作
+
 （1）完全导出导入命令
 
 exp username/password@ip:port file="本地地址/文件名.dmp" full=y;
