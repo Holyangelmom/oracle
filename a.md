@@ -18,15 +18,15 @@ startup;
 
 （1）完全导出导入命令
 
-exp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" full=y;
+exp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" full=y;
 
-imp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" full=y;
+imp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" full=y;
 
 （2）部分用户表导出导入
 
-exp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
+exp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
 
-imp username/password@SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
+imp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" tables=\(table1, table2...\);
 
 （3）
 
