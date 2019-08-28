@@ -28,5 +28,5 @@ exp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" fr
 
 imp username/password@ip:port/SERVICE\_NAME file="本地地址/文件名.dmp" fromuser=user1 touser=user2  tables=\(table1, table2...\);
 
-（3）
+
 

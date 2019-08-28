@@ -80,3 +80,13 @@ _select text from user\_source where type = 'FUNCTION' and name='XXX';_
 
 alter table tableName drop column colName;
 
+### 15、添加注释
+
+_comment  on  column  表名.字段名   is  '注释内容';_
+
+_comment on column OPERATOR\_INFO.MAIN\_OPER\_ID is '归属操作员';_
+
+_comment on table 表名  is  '注释内容';_
+
+_comment on table OPERATOR\_INFO is  '操作员信息表';_
+
